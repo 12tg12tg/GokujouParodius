@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gameNode">
+      <UniqueIdentifier>{456ccd31-a2dd-4ba8-9f22-c7d462a1773e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{b0320f66-3036-499a-bc52-2864aa106a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="singleton">
+      <UniqueIdentifier>{d5af6b0f-4c74-4ebe-a0df-998a3b2f9a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{ae8ed1ca-b7db-445d-a3e2-970c23ee8efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{ca8e2a9d-9a89-40fa-9687-e9811869698e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프로그래스바">
+      <UniqueIdentifier>{7dc5fc3f-3ed9-448f-a8e1-eebcabcc6bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="타이머">
+      <UniqueIdentifier>{fced4742-a1d1-43ed-afee-d70fd59892a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="텍스트데이터">
+      <UniqueIdentifier>{dc1a7e9c-3e65-4527-8e0e-9d1fed69e1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\parodius">
+      <UniqueIdentifier>{49f9125b-24af-4ded-9742-3ee1f4df62b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\parodius\player">
+      <UniqueIdentifier>{5b29193d-daff-4288-b1e6-147908eb6f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\parodius\bullet">
+      <UniqueIdentifier>{006759f7-f28d-4a42-8501-5ad9746a055b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\parodius\item">
+      <UniqueIdentifier>{178fd80b-df3a-4f7a-afc8-8cd1a8682f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\parodius\gamemanager">
+      <UniqueIdentifier>{7033e9c4-a110-45c6-b6f8-52fece684777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\parodius\enemy">
+      <UniqueIdentifier>{505698b3-ce12-41cf-b4b8-79058a76a94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\parodius\enemy\enemyUnit">
+      <UniqueIdentifier>{d9a9c3fe-a4b7-4dab-837d-8d9f4d3e2fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\parodius\enemy\enemyObject">
+      <UniqueIdentifier>{bf5577a0-fd44-4997-b44d-f89976b82a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\parodius\enemy\boss">
+      <UniqueIdentifier>{e80c980b-f582-49e0-8105-946a74edf086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\parodius\round">
+      <UniqueIdentifier>{80f1c696-fd84-44ad-8c1a-d59a78dcc6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\manager">
+      <UniqueIdentifier>{8c61072a-dba4-46b6-8ed7-d49ee1e7d011}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="API_FrameWork.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>리소스 파일\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>리소스 파일\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>타이머</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>리소스 파일\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>프로그래스바</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>텍스트데이터</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyUnit.h">
+      <Filter>mainGame\parodius\enemy\enemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="parodius.h">
+      <Filter>mainGame\parodius</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>mainGame\parodius\player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyClasses.h">
+      <Filter>mainGame\parodius\enemy\enemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="bulletClasses.h">
+      <Filter>mainGame\parodius\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bell.h">
+      <Filter>mainGame\parodius\item</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>mainGame\parodius\gamemanager</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyObject.h">
+      <Filter>mainGame\parodius\enemy\enemyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="objectClasses.h">
+      <Filter>mainGame\parodius\enemy\enemyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="powerUp.h">
+      <Filter>mainGame\parodius\item</Filter>
+    </ClInclude>
+    <ClInclude Include="screenManager.h">
+      <Filter>mainGame\parodius\gamemanager</Filter>
+    </ClInclude>
+    <ClInclude Include="panda.h">
+      <Filter>mainGame\parodius\enemy\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="playerui.h">
+      <Filter>mainGame\parodius\player</Filter>
+    </ClInclude>
+    <ClInclude Include="round1.h">
+      <Filter>mainGame\parodius\round</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="API_FrameWork.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>리소스 파일\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>리소스 파일\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>타이머</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>리소스 파일\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>프로그래스바</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>텍스트데이터</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyUnit.cpp">
+      <Filter>mainGame\parodius\enemy\enemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="parodius.cpp">
+      <Filter>mainGame\parodius</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>mainGame\parodius\player</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyClasses.cpp">
+      <Filter>mainGame\parodius\enemy\enemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="bulletClasses.cpp">
+      <Filter>mainGame\parodius\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="bell.cpp">
+      <Filter>mainGame\parodius\item</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>mainGame\parodius\gamemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyObject.cpp">
+      <Filter>mainGame\parodius\enemy\enemyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="objectClasses.cpp">
+      <Filter>mainGame\parodius\enemy\enemyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="powerUp.cpp">
+      <Filter>mainGame\parodius\item</Filter>
+    </ClCompile>
+    <ClCompile Include="screenManager.cpp">
+      <Filter>mainGame\parodius\gamemanager</Filter>
+    </ClCompile>
+    <ClCompile Include="panda.cpp">
+      <Filter>mainGame\parodius\enemy\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="playerui.cpp">
+      <Filter>mainGame\parodius\player</Filter>
+    </ClCompile>
+    <ClCompile Include="round1.cpp">
+      <Filter>mainGame\parodius\round</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="API_FrameWork.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="API_FrameWork.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
