@@ -16,7 +16,7 @@ mainGame mg;
 
 
 
-LPTSTR m_lpszClass = TEXT("지옥으로 떠나는 여행");
+LPTSTR m_lpszClass = TEXT("극상 파로디우스");
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 void setWindowSize(int x, int y, int width, int height);
 

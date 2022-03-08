@@ -49,7 +49,7 @@ using namespace std;
 //	매크로 설정부분	//
 //=================//
 
-#define WINNAME			(LPTSTR)(TEXT("지옥으로 떠나는 여행"))
+#define WINNAME			(LPTSTR)(TEXT("극상 파로디우스"))
 #define WINSTARTX		100//시작점
 #define WINSTARTY		100
 #define WINSIZEX		1024
